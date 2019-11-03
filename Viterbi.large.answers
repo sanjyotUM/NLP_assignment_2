@@ -1,0 +1,5 @@
+1. Program is complete. It trains on given data, prints accuracy and generates output file.
+
+2. Accuracy on test data: 95.62%
+
+3. Accuracy of baseline program on test data: 89.04%

@@ -1,0 +1,24 @@
+1. Program is complete. It trains on given data, prints accuracy and generates output file.
+
+2. Accuracy on test data: 92.04%
+
+3. Accuracy of baseline program on test data: 87.74%
+
+4.
+    a. "Traders said the price of cocoa -- mainstay of the economies of Ghana and the Ivory Coast -- is already close
+    to a 14-year low and is likely to slump when world markets reopen Monday ."
+
+    The word 'close' has the correct tag as JJ (adjective) while our prediction is VB (verb). This is possibly because
+    there is not enough training data depicting the usage of 'close' to show the quality of a noun.
+
+    b. "He said the package of measures was n't voted on because the EC said it would abstain ."
+
+    The word 'on' has the correct tag as RP (particle) while our prediction is IN (preposition). This is a relatively
+    rare usage of 'on' as a particle as compared to its common use as an preposition. More training data with samples
+    where 'on' is a particle would help.
+
+    c. "Orders for securities are placed directly with an official broker or through a bank operating in Greece ."
+
+    The word 'official' has the correct tag as JJ (adjective) while our prediction is NN (noun). This is a case where
+    training data influenced probabilities of 'official' as noun to be higher. Perhaps more training data OR a
+    different algorithm which 'sums' probabilities instead of taking 'max' would help here.
